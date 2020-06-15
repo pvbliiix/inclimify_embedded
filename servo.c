@@ -23,11 +23,11 @@
 uint8_t static const servo1_pin = D3;
 uint8_t static const servo2_pin = D4;
 
-#define MQTT_HOST ("192.168.20.15")
+#define MQTT_HOST ("") // INSERT IP HERE
 #define MQTT_PORT 1883
 
-#define MQTT_USER "appti2019"
-#define MQTT_PASS "appti2019"
+#define MQTT_USER "" // INSERT CREDENTIALS HERE
+#define MQTT_PASS ""
 
 #define TOPIC_LEN 32
 
